@@ -11,6 +11,17 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.5
 
+  # Persistence
+  shared_preferences: ^2.0.18
+  sqflite: ^2.2.5
+
+  # Design
+  google_fonts: ^4.0.3
+  material_design_icons_flutter: ^6.0.7096
+
+  # Utils
+  flutter_colorpicker: ^1.0.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -18,3 +29,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/img/
